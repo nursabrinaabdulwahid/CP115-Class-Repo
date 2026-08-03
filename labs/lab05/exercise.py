@@ -1,3 +1,22 @@
+# Import entire modules
+import math
+import random
+import datetime
+
+# Using imported modules
+circle_area = math.pi * (5 ** 2)
+random_number = random.randint(1, 100)
+current_date = datetime.date.today()
+
+# Import specific functions from modules
+from math import sqrt, pow, sin, cos
+from random import choice, shuffle
+from datetime import datetime, timedelta
+
+# Using imported functions directly (no module prefix needed)
+square_root = sqrt(25)
+power_result = pow(2, 8)
+random_choice = choice(['apple', 'banana', 'cherry'])
 # Use this file to try out the examples as you work through the lab.
 # Type them in, run the file, then clear it out and use it again for the next one.
 #
@@ -5,16 +24,10 @@
 # On Windows you may need:         py exercise.py
 #
 # Nothing in this file is marked, so experiment as much as you like.
-# Numeric data types
-age = 21                    # int (integer)
-height = 5.9               # float (floating-point number)
-temperature = -15.5        # float (can be negative)
-
-# String data type
-student_name = "Muhammad Ali"    # str (string)
-course_title = 'Python Programming'  # str (single or double quotes)
-description = """This is a multi-line
-string that spans several lines."""   # str (triple quotes)
-text = "hello"
-text = text.upper()
-print(text)               # HELLO
+name = "Alice"
+age = 25
+print("My name is " + name + " and I am " + str(age) + " years old.")
+name = "Alice"
+age = 25
+print("My name is {name} and I am {age} years old.")
+print(f"{name.upper()} has {len(name)} letters")
