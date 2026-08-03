@@ -15,30 +15,6 @@ student_name = "Muhammad Ali"    # str (string)
 course_title = 'Python Programming'  # str (single or double quotes)
 description = """This is a multi-line
 string that spans several lines."""   # str (triple quotes)
-
-# Boolean data type
-is_active = True           # bool (boolean)
-has_submitted = False      # bool (boolean).
-
-# Special data type
-nothing = None             # NoneType (represents absence of value)
-print(type(age))
-print(type(temperature))
-print(type(student_name))
-print(type(is_active))
-print(type(nothing))
-print(type(25))
-print(type("25"))
-number_text = "25"
-print(type(number_text))
-
-real_number = int(number_text)
-print(type(real_number))
-text = "Hello World"
-
-# len() is a function, so the value goes inside the brackets
-print(len(text))          # 11
-
-# upper() and lower() are methods, so the value comes before the dot
-print(text.upper())       # HELLO WORLD
-print(text.lower())       # hello world
+text = "hello"
+text = text.upper()
+print(text)               # HELLO
