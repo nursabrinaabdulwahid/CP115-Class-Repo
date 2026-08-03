@@ -17,3 +17,9 @@ from datetime import datetime, timedelta
 square_root = sqrt(25)
 power_result = pow(2, 8)
 random_choice = choice(['apple', 'banana', 'cherry'])
+
+class_name=input("Enter your class name: ")
+
+print(random_number)
+print(class_name)
+
