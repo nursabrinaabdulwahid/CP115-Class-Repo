@@ -34,3 +34,11 @@ print(type(number_text))
 
 real_number = int(number_text)
 print(type(real_number))
+text = "Hello World"
+
+# len() is a function, so the value goes inside the brackets
+print(len(text))          # 11
+
+# upper() and lower() are methods, so the value comes before the dot
+print(text.upper())       # HELLO WORLD
+print(text.lower())       # hello world
