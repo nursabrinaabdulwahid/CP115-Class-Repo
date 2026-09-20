@@ -1,2 +1,4 @@
-for multiplier in range(1, 11):
-    print(f"7 x {multiplier} = {7 * multiplier}")
+team_size = int(input("How many members? "))
+for member in range(1, team_size + 1):
+    name = input(f"Enter name for member {member}: ")
+    print(f"Member {member}: {name}")
