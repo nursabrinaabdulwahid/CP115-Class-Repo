@@ -15,6 +15,6 @@ while speed != -1:
 
     speed = int(input())
 
-
+ 
 print(total_readings)
 print(longest_streak)
